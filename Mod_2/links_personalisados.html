@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content:' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <a href="https://www.google.com/" target="_blank"><li>Google</li></a>
+        <a href="https://www.metropoles.com/" target="_blank"><li>Metropoles</li></a>
+        <a href="https://mail.yahoo.com/" target="_blank"><li>Yahoo</li></a>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'voltag';
+    src: url('estudo_css/Mod_2/fontes/Maximum\ Voltage.otf');
+}
+    @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+    {/* Configurção globais das CSS*/
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+       
+    body{
+        background-image: linear-gradient(75deg, rgba(17, 90, 185, 0.671), #35bd5ec4,#89d3bca8);
+            background-attachment: fixed;
+    }
+
+    main{
+        background-color: white; 
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.623);
+    }
+
+    h1{
+        color: green;
+        text-align: center;
+        font-family: 'voltag', 'Times';
+        font-size: 40px;
+        text-decoration: underline;
+        text-shadow: 2px 2px 5px black;
+        
+    }
+
+    h2{
+        color: green;
+        text-shadow: 2px 2px 2px black;
+        font-family: 'voltag','Times';
+        text-align: right;
+        background-color: aqua;
+        
+    }
+
+    h2#t3, h2#t1 {
+        color: rgba(19, 103, 214, 0.836);
+        text-shadow: 2px 2px 2px black;
+        font-family: 'voltag','Times';
+        text-align: left;
+        background-color: white;            
+    }
+
+
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 18px;
+        text-align: justify;
+        text-indent: 28px;
+        
+    }
+
+    
+   
+
+
+    

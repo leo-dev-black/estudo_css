@@ -4,7 +4,7 @@
 
 @font-face {
     font-family:'android';
-    src: url('/estudo_css/Mod_2/projeto_site_cap_17/dados/pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    src: url('../dados/pacote-projeto-d010/fontes/idroid.otf'), format('opentype');
 }
 
 /*
@@ -45,7 +45,7 @@ a.externo::after{
 main p{
     margin: 15px 0px;
     text-align: justify;
-    text-indent: 30px;
+    text-indent: 20px;
     line-height: 2em;
     font-size: 1em;
 }
@@ -96,6 +96,7 @@ main header h1{
 }
 header > p{
     color: white;
+    text-align: center;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     max-width: 500px;
